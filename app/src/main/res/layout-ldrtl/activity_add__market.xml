@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:theme="@style/AppThemex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            tools:context="com.dalelak.eyads.syrianguide.AddMarket">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_your_country"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_market_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_you_province"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+
+            <Spinner
+                android:id="@+id/spinner_market_province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/market_price_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/market_status_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delivery"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/markrt_delivery_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/market_description_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/button_marker_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/frame"
+                android:padding="5dp"
+                android:text="@string/add_you_first_image"
+                android:textColor="@android:color/black"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="384dp" />
+
+            <ImageView
+                android:id="@+id/imageView_market_upload"
+                android:layout_width="match_parent"
+                android:layout_height="183dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/empty" />
+
+            <Button
+                android:id="@+id/button_marker_upload2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/frame"
+                android:padding="5dp"
+                android:text="@string/add_your_second_image"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/imageView_market_upload2"
+                android:layout_width="match_parent"
+                android:layout_height="183dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/empty" />
+
+            <Button
+                android:id="@+id/button_marker_upload3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/frame"
+                android:padding="5dp"
+                android:text="@string/add_your_third_image"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/imageView_market_upload3"
+                android:layout_width="match_parent"
+                android:layout_height="183dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:cropToPadding="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/empty" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ProgressBar
+                    android:id="@+id/zxzx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/button_market_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/frame"
+                    android:padding="5dp"
+                    android:text="@string/post"
+                    android:textColor="@android:color/black" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

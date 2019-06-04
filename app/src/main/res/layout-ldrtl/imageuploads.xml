@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/ghide_uploade_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/frame"
+        android:padding="5dp"
+        android:text="@string/add_you_first_image"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageView
+        android:id="@+id/ghide_imageview_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/frame"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/empty" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ghide_imageview_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/emptys" />
+
+            <ImageView
+                android:id="@+id/ghide_imageview_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/emptys" />
+
+            <ImageView
+                android:id="@+id/ghide_imageview_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/emptys" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ghide_imageview_5"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/emptys" />
+
+            <ImageView
+                android:id="@+id/ghide_imageview_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/emptys" />
+
+            <ImageView
+                android:id="@+id/ghide_imageview_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@drawable/frame"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/emptys" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

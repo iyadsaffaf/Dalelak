@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/calendar" />
+
+        <TextView
+            android:id="@+id/eventex_title_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="38dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/eventex_title_Textview"
+            android:layout_below="@+id/eventex_title_Textview"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="4dp"
+            android:text="@string/added_by"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/eventex_publisher_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView15"
+            android:layout_alignBottom="@+id/textView15"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textView15"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:text="@string/on"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/eventex_date_Textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/textView17"
+            android:text="" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/expevente_cover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/flag_netherlands" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_weight="0"
+                android:background="@color/comment" />
+
+            <View
+                android:id="@+id/dividerd4"
+                android:layout_width="match_parent"
+                android:layout_height="0.2dp"
+                android:layout_weight="0"
+                android:background="@color/comment" />
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+
+                    <TextView
+                        android:id="@+id/eventex_intersted_Textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/_20_are_intersted" />
+
+                    <ImageView
+                        android:id="@+id/exevent_interstedarrow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="10dp"
+                        app:srcCompat="@drawable/arrowdown" />
+
+                    <TextView
+                        android:id="@+id/eventex_going_Textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="@string/_20_are_going" />
+
+                    <ImageView
+                        android:id="@+id/exevent_goingarrow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/arrowdown" />
+
+
+                </LinearLayout>
+
+]
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView85"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/eventex_country_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_toEndOf="@+id/imageView85"
+                    android:text="Netherlands" />
+
+                <TextView
+                    android:id="@+id/eventex_adress_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/eventex_country_Textview"
+                    android:layout_below="@+id/eventex_country_Textview"
+                    android:text="9728PP" />
+
+                <TextView
+                    android:id="@+id/eventex_city_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toEndOf="@+id/eventex_country_Textview"
+                    android:text="Grongning" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/clock" />
+
+                <TextView
+                    android:id="@+id/eventex_dateofevent_TExtview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="52dp"
+                    android:cursorVisible="true"
+                    android:text=":202" />
+
+                <TextView
+                    android:id="@+id/eventex_startAt_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@+id/textView24"
+                    android:text=""
+                    tools:text="20:20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/eventex_dateofevent_TExtview"
+                    android:layout_below="@+id/eventex_dateofevent_TExtview"
+                    android:text="@string/start_at"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/textView24" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/eventex_dateofevent_TExtview"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toEndOf="@+id/eventex_startAt_Textview"
+                    android:text="@string/end_at"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/eventex_endAT_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@+id/textView27"
+                    android:accessibilityTraversalAfter="@+id/Event_gobutton"
+                    android:text="20:20" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageViwd8"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/tickt" />
+
+                <TextView
+                    android:id="@+id/eventex_price_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="free" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imagedViwd8"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/people" />
+
+                <TextView
+                    android:id="@+id/eventex_invitation_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imagedViwd84"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    app:srcCompat="@drawable/detail" />
+
+                <TextView
+                    android:id="@+id/eventex_detail_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

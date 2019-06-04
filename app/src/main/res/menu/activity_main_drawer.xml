@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group >
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/myprofile"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_add_List"
+            android:icon="@drawable/addicon"
+            android:title="@string/add" />
+        <item
+            android:id="@+id/mymessage"
+            android:icon="@drawable/message"
+            android:title="@string/my_messages" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/mypost"
+            android:title="@string/my_posts" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/settings" />
+    </group>
+    <item android:title="@string/support">
+        <menu>
+
+            <item
+                android:id="@+id/thankto"
+                android:icon="@drawable/thankyou"
+                android:title="@string/thanks_to" />
+            <item
+                android:id="@+id/supportus"
+                android:icon="@drawable/supporticon"
+                android:title="@string/support_us" />
+            <item
+                android:id="@+id/invite"
+                android:icon="@drawable/invite"
+                android:title="@string/invite_people" />
+        </menu>
+
+    </item>
+
+    <item android:title="@string/my_account">
+        <menu>
+
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/logout"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+</menu>

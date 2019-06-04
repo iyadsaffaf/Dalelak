@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dalelak.eyads.dalelakْْ.SupportUs"
+    app:theme="@style/AppThemex"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="@string/we_are_doing_our_best_to_make_dalelak_the_best_app_for_arabic_people_in_europe_but_the_cost_of_development_is_relatively_high_you_can_help_us_by_watching_this_ad_and_we_will_reward_you_by_providng_new_updates_and_versions_for_dalelak"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/adbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/start_the_ad"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+</LinearLayout>

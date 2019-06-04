@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainchatLinerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mainchatcircle"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="14dp"
+        android:background="@drawable/avatar" />
+
+    <RelativeLayout
+        android:id="@+id/chatmainlinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chatMain_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/mainchattime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/lastmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/chatMain_name"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_alignEnd="@+id/mainchattime"
+            android:layout_alignParentBottom="true"
+            android:background="@color/com_facebook_button_background_color_focused_disabled" />
+
+        <ImageView
+            android:id="@+id/imageViewmainchat"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/lastmessage"
+            android:layout_alignEnd="@+id/divider"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/lastmessage" />
+
+        <TextView
+            android:id="@+id/textViewmainchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageViewmainchat"
+            android:layout_alignEnd="@+id/imageViewmainchat"
+            android:layout_alignStart="@+id/imageViewmainchat"
+            android:layout_below="@+id/chatMain_name"
+            android:paddingLeft="9dp"
+            android:paddingTop="2dp"
+            android:text="2"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    app:theme="@style/AppThemex"
+
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/CircleImageView_market"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="16dp"
+                    android:background="@drawable/avatar"
+                    android:duplicateParentState="true" />
+
+                <TextView
+                    android:id="@+id/market_name_textviewexpabded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/CircleImageView_market"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/market_date_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/market_name_textviewexpabded"
+                    android:layout_below="@+id/market_name_textviewexpabded"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:text=""
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/markey_report"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/arrowdown" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/market_price_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="45$"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/market_descrption_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/marker_postimage_imageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/frame"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/flag_netherlands" />
+
+                <ProgressBar
+                    android:id="@+id/homeprogress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textViewlike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="20" />
+
+                    <com.like.LikeButton
+                        android:id="@+id/star_button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:icon_size="25dp"
+                        app:icon_type="thumb">
+
+                    </com.like.LikeButton>
+
+                    <TextView
+                        android:id="@+id/textViewlove"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:text="20" />
+
+                    <com.like.LikeButton
+                        android:id="@+id/star_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:icon_size="25dp"
+                        app:icon_type="heart">
+
+                    </com.like.LikeButton>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/event_detail_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/white"
+                    android:text="@string/review"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/market_comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/event_detail_button"
+                    android:background="@android:color/white"
+                    android:text="@string/comment"
+                    android:textColor="@android:color/black" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/Ed_Delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:visibility="gone" />
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

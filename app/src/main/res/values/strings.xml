@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Dalelak</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="action_settings">Log out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8131000067368524/8617026045</string>
+    <string name="facebook_app_id" translatable="false">1815420635188152</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1815420635188152</string>
+    <string name="Market">Market</string>
+    <string name="Events">Events</string>
+    <string name="Guide">Guide</string>
+    <string name="Questions">Questions</string>
+    <string name="please_add_your_question_here">Please add your question here</string>
+    <string name="ask">Ask</string>
+    <string name="guide">Guide</string>
+    <string name="event">Event</string>
+    <string name="market">Market</string>
+    <string name="question">Question</string>
+    <string name="choose_your_country">Choose your country:</string>
+    <string name="choose_you_province">Choose you province:</string>
+    <string name="price">Price:</string>
+    <string name="status">Status:</string>
+    <string name="delivery">Delivery:</string>
+    <string name="add_your_second_image">Add your second image</string>
+    <string name="add_your_third_image">Add your third image</string>
+    <string name="name_of_company">Name of company:</string>
+    <string name="service">Service:</string>
+    <string name="City">City:</string>
+    <string name="address">Address:</string>
+    <string name="website">Website:</string>
+    <string name="description">Description:</string>
+    <string name="post">Post</string>
+    <string name="title">Title:</string>
+    <string name="date">Date:</string>
+    <string name="start_at">Start at:</string>
+    <string name="end_at">End At:</string>
+    <string name="city">City:</string>
+    <string name="invitation">Invitation:</string>
+    <string name="add_your_cover">Add your cover</string>
+    <string name="share">Share</string>
+    <string name="choose_your_province">Choose your province:</string>
+    <string name="choose_you_country">Choose you country:</string>
+    <string name="add_a_comment_here">Add a comment here</string>
+    <string name="added_by">Added by</string>
+    <string name="on">On</string>
+    <string name="_20_are_intersted">20 are intersted</string>
+    <string name="_20_are_going">20 are going</string>
+    <string name="likers">likers:</string>
+    <string name="country">Country:</string>
+    <string name="province">Province:</string>
+    <string name="phone">Phone:</string>
+    <string name="added_on">Added on</string>
+    <string name="by">By</string>
+    <string name="welcome_to_dalelak">Welcome to Dalelak</string>
+    <string name="likes">likes:</string>
+    <string name="lovers">lovers:</string>
+    <string name="send_message">Send Message</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="profile">Profile</string>
+    <string name="privacy">Privacy</string>
+    <string name="account">Account</string>
+    <string name="choose_what_others_can_see">Choose what others can see:</string>
+    <string name="facebook_profile">Facebook Profile</string>
+    <string name="save">Save</string>
+    <string name="Added_By">Added by</string>
+    <string name="detail">Detail</string>
+    <string name="comment">Comment</string>
+    <string name="delete">Delete</string>
+    <string name="company_name">Company Name:</string>
+    <string name="review">Review</string>
+    <string name="add_you_first_image">Add you first image</string>
+    <string name="delete_your_account">Delete your Account</string>
+    <string name="deletacoount">If you delete your account all your information , your posts and everything will be permanently deleted, if you want to continue press okey</string>
+    <string name="deletewar">Delete your Account</string>
+    <string name="we_are_doing_our_best_to_make_dalelak_the_best_app_for_arabic_people_in_europe_but_the_cost_of_development_is_relatively_high_you_can_help_us_by_watching_this_ad_and_we_will_reward_you_by_providng_new_updates_and_versions_for_dalelak">We are doing our best to make Dalelak the best app for Arabic people in Europe, but the cost of development is relatively high, you can help us by watching this ad and we will reward you by providng new updates and versions for Dalelak</string>
+    <string name="start_the_ad">Start the Ad</string>
+    <string name="reportText">Thank you for you reporting we will work on it as soon as possible</string>
+    <string name="deleted">Deleted</string>
+    <string name="theaccountdelted">The account has been deleted</string>
+    <string name="report">Report</string>
+    <string name="my_profile">My Profile</string>
+    <string name="add">Add</string>
+    <string name="my_messages">My Messages</string>
+    <string name="my_posts">My Posts</string>
+    <string name="settings">Settings</string>
+    <string name="support">Support</string>
+    <string name="thanks_to">Thanks and appreciation</string>
+    <string name="support_us">Support us</string>
+    <string name="invite_people">Invite People</string>
+    <string name="my_account">My Account</string>
+    <string name="log_out">Log Out</string>
+    <string name="show_profile">View Profile</string>
+    <string name="commentnumber">Number of comments:</string>
+    <string name="internet_connection">No Internet connection</string>
+    <string name="Delete_your_post">Delete  post</string>
+    <string name="areyousuroyouamlkaf">Are you sure you want to delete your post?</string>
+    <string name="DeleteyourEvent">Delete  Event</string>
+    <string name="Areyou">Are you sure you want to delete your Event?</string>
+    <string name="DeleteQuestion">Delete Question</string>
+    <string name="Areyousureyou">Are you sure you want to delete this question?</string>
+    <string name="asa">Please write your question first</string>
+    <string name="qeeq">Please write a complete question</string>
+    <string name="afaf">Please watch your word</string>
+    <string name="fsadfaf">Please upload a cover for your event</string>
+    <string name="dvsdvZ">Please add the entry price  of your event</string>
+    <string name="dsvsdzv">Please add the detail of the event</string>
+    <string name="bzbzxbx">Please add the title of the event</string>
+    <string name="bfzbbxzbz">Please add the date of the event</string>
+    <string name="bxzcbxzb">Please add  the beginning time of the event</string>
+    <string name="sbzsbxzbz">Please add  the ending time of the event</string>
+    <string name="bzxbcxbzxc">Please add  the city of the event</string>
+    <string name="bxczbzx">Please add the invitation of the event, you can choose if it is public invitation or it just just for a specific group (e.g women,doctors etc..)</string>
+    <string name="zvvZVzcxbzsfn">Please add  the address of the event</string>
+    <string name="dsdbgsda">Please upload one photo at least</string>
+    <string name="dbnnndf">Please add  the name of company</string>
+    <string name="zfbbfdnb">Please add  the service that company provide(e.g. restaurant,clinic,painting...)</string>
+    <string name="fbbfssnz">Please add the city</string>
+    <string name="fsbzsznbfs">Please add the description</string>
+    <string name="dbbdfhndf">Please add  the address</string>
+    <string name="davadv">Pleas upload one photo at least</string>
+    <string name="vadadva">Please add  a price for your product</string>
+    <string name="dbdfbd">Please add  description for your product</string>
+    <string name="fbfbz">Please add  the status for your product(e.g. new,used,used for one time,... )</string>
+    <string name="dnbdzbz">Please add  description of your delivery or how people can get the product from you</string>
+    <string name="dvvs">Delete your post</string>
+    <string name="vsdvsa">Are you sure you want to delete your post?</string>
+    <string name="svds">Ask a Question</string>
+    <string name="sfvbs">Add</string>
+    <string name="sfbf">Add an Event</string>
+    <string name="czv">Add a Guide</string>
+    <string name="vsbsc">Add a product</string>
+    <string name="bsfb">My Events</string>
+    <string name="sfbsfb">My Guids</string>
+    <string name="svbb">My Questions</string>
+    <string name="vsfbds">My Market</string>
+    <string name="cvbfbs">My Messages</string>
+    <string name="vzcvbbad">My Posts</string>
+    <string name="vsdvvd">Profile</string>
+    <string name="vdsvsv">Settings</string>
+    <string name="vdvd">Account</string>
+    <string name="dvav">Privacy</string>
+    <string name="dsvsv">Support us</string>
+    <string name="czvsv">Thanks and appreciation</string>
+    <string name="fsfsb">your profile information has been updated</string>
+    <string name="welcome_to_dalelalk">Welcome To Dalelak</string>
+
+
+</resources>

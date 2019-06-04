@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chatbackground"
+    android:orientation="vertical"
+    app:theme="@style/AppThemechatwindow">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclechat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_alignParentTop="true">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|end"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="3dp"
+                android:layout_toStartOf="@+id/imageButton2d"
+                android:background="@drawable/recedit"
+                android:elevation="7dp"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="6dp">
+
+                <EditText
+                    android:id="@+id/editTextmessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal|center|clip_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:drawable/screen_background_light_transparent"
+                    android:inputType="textMultiLine|textImeMultiLine|textPersonName"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton2d"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignBottom="@+id/linearLayout3"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/sendchat"
+                android:elevation="7dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

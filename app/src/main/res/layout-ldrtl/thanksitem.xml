@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/thankrelative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:color/white"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/link_thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_thanks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="www.eyad.com"
+        android:textColor="?android:attr/colorEdgeEffect"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/name_thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Eyad saffafEyad saffafEyad saffafEyad saffafEyad saffafEyad saffaf"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+</RelativeLayout>

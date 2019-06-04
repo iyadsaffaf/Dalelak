@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "746781369942",
+    "firebase_url": "https://dalelak-a70fb.firebaseio.com",
+    "project_id": "dalelak-a70fb",
+    "storage_bucket": "dalelak-a70fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746781369942:android:2bcbfe0bc472a06f",
+        "android_client_info": {
+          "package_name": "com.dalelak.eyads.dalelak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746781369942-g4b64cdefuilmvqf50gl789jh4evs168.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dalelak.eyads.dalelak",
+            "certificate_hash": "c3fd0fac7da71612fdfa0a6741b1b836f852268e"
+          }
+        },
+        {
+          "client_id": "746781369942-sehhci9qounr8lu95cmsji28626m9uda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHTAb8WUGbf8YXfQI_EjhZ7kq9qhlAxbs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746781369942-sehhci9qounr8lu95cmsji28626m9uda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
